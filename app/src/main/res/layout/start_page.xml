@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="MoveIt!"
+            android:id="@+id/moveItTextView"
+            android:textAlignment="center"
+            android:textColor="#1a2470"
+            android:textSize="70dp"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView4"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Moving made easy!"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:textColor="#3d6ab8"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_below="@+id/moveItTextView"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:typeface="normal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/moveit_start_image"
+            android:layout_above="@+id/getStartedButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/getStartedButton"
+            android:layout_alignParentBottom="true"
+
+            android:text="GET STARTED"
+            android:background="#1a2470"
+            android:textColor="#FFFFFFFF"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+</LinearLayout>

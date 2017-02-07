@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="categories_prompt">Choose a category</string>
+    <string-array name="categories">
+        <item>Kitchen</item>
+        <item>Bedroom</item>
+        <item>Bathroom</item>
+        <item>Living Room</item>
+        <item>Patio</item>
+    </string-array>
+</resources>

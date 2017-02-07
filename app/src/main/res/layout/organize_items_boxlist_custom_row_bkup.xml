@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="false"
+              android:clickable="false"
+              android:background="#FFFFFF"
+              android:gravity="right">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/btnBoxName_BoxList_OIBkup"
+        android:background="@drawable/movebox4"
+        android:text="Box 1"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvtextView_BoxList_OIBkup"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"/>
+
+
+
+
+
+</LinearLayout>

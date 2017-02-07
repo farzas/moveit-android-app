@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="false"
+              android:clickable="false"
+              android:background="#FFFFFF"
+    >
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="70dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:id="@+id/ivAnimal"-->
+    <!--android:layout_gravity="center_vertical"/>-->
+    <!--android:src="@drawable/lion"-->
+
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnItemName_OI_ItemList"
+        android:text="Item 1"
+        android:textSize="20sp"/>
+        <!--android:background="@drawable/movebox_1"-->
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvtextView_OI_ItemList"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"/>
+
+
+    //android:text="ADD TO"
+    android:id="@+id/btnAddToBoxOI_bk"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/new_move_button"/>
+
+
+</LinearLayout>

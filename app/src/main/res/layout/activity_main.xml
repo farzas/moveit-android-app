@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/main_bckgnd"
+    tools:context=".MainActivity" >
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous Moves"
+            android:id="@+id/previousMoveButton"
+            android:background="@drawable/main_activity_button"
+            android:layout_below="@+id/packingTipsButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Move"
+            android:id="@+id/newMoveButton"
+            android:background="@drawable/main_activity_button"
+            android:layout_below="@+id/previousMoveButton"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PACKING TIPS"
+            android:id="@+id/packingTipsButton"
+            android:background="@drawable/main_activity_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTIFY FRIENDS &amp; FAMILY"
+            android:id="@+id/notificationButton"
+            android:background="@drawable/main_activity_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCAN QR CODE"
+            android:id="@+id/scanQRButton"
+            android:background="@drawable/main_activity_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+</LinearLayout>

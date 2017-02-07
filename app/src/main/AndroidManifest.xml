@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sample.farza.moveit">
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NewMoveActivity" />
+        <activity android:name=".mailnotification.Notification"/>
+        <activity android:name=".AddNewItemActivity" />
+        <activity android:name=".listitems.ItemListActivity" />
+        <activity android:name=".ItemDescription" />
+        <activity android:name=".organize.OrganizeItemsBkup"/>
+        <activity android:name=".organize.OrganizeBoxDetailsViewBkup"/>
+        <activity android:name=".printpdf.PrintDialogActivity" />
+        <activity android:name=".printpdf.PrintPdfActivity" />
+        <activity android:name=".PackingTipsVideo" />
+        <activity android:name=".mailnotification.GetContactEmails" />
+        <activity android:name=".mailnotification.CheckBoxActivity"/>
+        <activity android:name=".barcodegeneration.QRActivity"/>
+        <activity android:name=".barcodescan.BarcodeActivity"/>
+        <activity android:name=".previousmoveslist.MoveListActivity"/>
+        <activity android:name=".previousmoveslist.PreviousMoveItemListActivity"/>
+        <activity android:name=".movearchived.MoveArchived"/>
+
+
+    </application>
+
+</manifest>

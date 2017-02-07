@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/main_bckgnd"
+        android:alpha="0.7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="New Text"
+        android:id="@+id/moveNameTextView"
+        android:textSize="40dp"
+        android:typeface="serif"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:background="#122999" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITEM LIST"
+        android:id="@+id/itemListbutton"
+        android:layout_below="@+id/moveNameTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_activity_button"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organize"
+        android:id="@+id/organizeButton"
+        android:layout_below="@+id/itemListbutton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_activity_button"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="print"
+        android:id="@+id/printListButton"
+        android:layout_below="@+id/organizeButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_activity_button"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Archive this move"
+        android:id="@+id/packedReadyButton"
+        android:background="@drawable/main_activity_button"
+        android:layout_below="@+id/printListButton"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
